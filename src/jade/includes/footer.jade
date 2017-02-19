@@ -48,3 +48,18 @@
 					| 
 					img(src="img/katzprod.png", alt="Katzprod")
 // footer end
+
+// popups
+#callback.popup
+	form(action="#")
+		input(type="hidden" name="Обратный звонок")
+		.popup-header
+			span Заказать звонок
+		.popup-body
+			label
+				input(type="text" name="name" placeholder="Ваше имя").input--gray
+			label
+				input(type="text" name="phone" placeholder="Ваш телефон").input--gray
+		.popup-footer
+			input(type="submit" value="Отправить").btn.btn--yellow
+// popups end

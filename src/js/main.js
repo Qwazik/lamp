@@ -1,4 +1,5 @@
 $(function() {
+    $('.fancybox').fancybox();
     
     /*-------------------------------------------------*/
     /*  home-slider
@@ -44,7 +45,6 @@ $(function() {
 
         if($(this).closest('[class*=-9]').length){
             items = 3;
-            console.log(3);
         }
     	var thisSlider = $(this).owlCarousel({
 	    	items: items,

@@ -1527,7 +1527,26 @@ a{
 	}
 }
 
-
+.popup{
+	display: none;
+	width: 300px;
+	max-width: 100%;
+}
+.popup-header{
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.popup-footer, .popup-body{
+	label{
+		margin-bottom: 10px;
+		display: block;
+	}
+	input{
+		width: 100%;
+	}
+}
 
 /*-------------------------------------------------*/
 /*  helper classes
